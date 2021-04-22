@@ -11,6 +11,8 @@ header section:nth-child(1){
     grid-template-columns: 50px 2px 1fr;
    
 }
+header section:nth-child()
+
 header h2{
     margin-block-start: 0%;
     
@@ -21,3 +23,15 @@ header section:nth-child(2){
     grid-template-columns:repeat(8 ,27px);
    
 }
+main sectin:nth-child(2){
+display: grid;
+grid-template-rows: repeat(3,1fr);
+gap:20px;
+text-align: center;
+}
+ main form ul {
+    
+    text-align: center;
+    text-decoration: none;
+
+ }
